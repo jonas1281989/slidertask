@@ -3,8 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>Laravel</title>
+        @include ('footer')
+        <title>Willkommen</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -42,29 +42,38 @@
 
             .content {
                 text-align: center;
+                position: absolute;
+                top: 7pc;
             }
 
             .title {
                 font-size: 84px;
             }
+            .title2-left {
+                text-align: left;
+                font-size: 60px;
+            }
 
             .links > a {
                 color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
+                padding: 0 50px;
+                font-size: 26px;
                 font-weight: 600;
-                letter-spacing: .1rem;
+                letter-spacing: .2rem;
                 text-decoration: none;
                 text-transform: uppercase;
             }
 
             .m-b-md {
-                margin-bottom: 30px;
+                margin-bottom: 50px;
             }
         </style>
     </head>
     <body>
+
         <div class="flex-center position-ref full-height">
+
+            <!-- Brauchen wir ?
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
@@ -78,20 +87,17 @@
                     @endauth
                 </div>
             @endif
+            --!>
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Slider-Task
                 </div>
+                <div>
 
+                </div>
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="slider">Start</a>
                 </div>
             </div>
         </div>
