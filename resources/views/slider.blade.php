@@ -22,24 +22,10 @@
             margin: 0;
         }
 
-        .full-height {
-            height: 100vh;
-        }
-
         .flex-center {
             align-items: center;
             display: flex;
             justify-content: center;
-        }
-
-        .position-ref {
-            position: relative;
-        }
-
-        .top-right {
-            position: absolute;
-            right: 10px;
-            top: 18px;
         }
 
         .content {
@@ -50,6 +36,9 @@
 
         .title {
             font-size: 84px;
+        }
+        .subtitle {
+            font-size: 30px;
         }
         .title2-left {
             text-align: left;
@@ -92,82 +81,83 @@
             border-style:        solid;
             border-color:        yellow;
         }
-
     </style>
 </head>
     <body>
-     <!--Link von Home-Button noch anpassen--!>
+     <!--Link von Home-Button noch anpassen-->
     <div class="left title"><a href="\"   type="button" class="btn btn-primary" role="button">Home</a></div>
      <div class="flex-center randgelb">
-        <div class="content randgrün">
+        <div class="content randgrün" style="width: 80%">
             <div class="title2-left m-b-md randrot">
                 Slider-Task
             </div>
+            <div class="subtitle">
             <p>Aufgabe:</p>
-            <p>Ziehen Sie den Slider jeweils auf 80</p>
-            <p>Aktueller Wert: <span style="color:blue "id="demo"></span></p>
+            <p>Ziehen Sie alle Slider auf den Wert 50!</p>
+            <p>Aktueller Wert:<br><span style="color:blue "id="demo"></span></p>
+            </div>
             <div class="custom-range randblau">
-                <input type="range" min="0" max="100" value="0" class="custom-range" id="test1">
+                <input type="range" min="0" max="100" value="0" step="1" class="custom-range" id="test1">
                 <script>
                     var rangeslider = document.getElementById("test1");
                     var output = document.getElementById("demo");
                     output.innerHTML = rangeslider.value;
 
                     rangeslider.oninput = function() {
-                        output.innerHTML = this.value;
+                        output.innerHTML = test1.value;
                     }
                 </script>
-                <input type="range" min="0" max="100" value="0" class="custom-range" id="test2">
+            </div>
+            <div class="custom-range randblau">
+                <input type="range" min="0" max="100" value="0" step="1" class="custom-range" id="test2">
                 <script>
                     var rangeslider = document.getElementById("test2");
                     var output = document.getElementById("demo");
                     output.innerHTML = rangeslider.value;
 
                     rangeslider.oninput = function() {
-                        output.innerHTML = this.value;
+                        output.innerHTML = test2.value;
                     }
                 </script>
-                <input type="range" min="0" max="100" value="0" class="custom-range" id="test3">
+            </div>
+            <div class="custom-range randblau">
+                <input type="range" min="0" max="100" value="0" step="1" class="custom-range" id="test3">
                 <script>
                     var rangeslider = document.getElementById("test3");
                     var output = document.getElementById("demo");
                     output.innerHTML = rangeslider.value;
 
                     rangeslider.oninput = function() {
-                        output.innerHTML = this.value;
+                        output.innerHTML = test3.value;
                     }
                 </script>
-            <input type="range" min="0" max="100" value="0" class="custom-range" id="test4">
+            </div>
+            <div class="custom-range randblau">
+                <input type="range" min="0" max="100" value="0" step="1" class="custom-range" id="test4">
                 <script>
                     var rangeslider = document.getElementById("test4");
                     var output = document.getElementById("demo");
                     output.innerHTML = rangeslider.value;
 
                     rangeslider.oninput = function() {
-                        output.innerHTML = this.value;
+                        output.innerHTML = test4.value;
                     }
                 </script>
-                <input type="range" min="0" max="100" value="0" class="custom-range" id="test5">
+            </div>
+            <div class="custom-range randblau">
+                <input type="range" min="0" max="100" value="0" step="1" class="custom-range" id="test5">
                 <script>
                     var rangeslider = document.getElementById("test5");
                     var output = document.getElementById("demo");
                     output.innerHTML = rangeslider.value;
 
                     rangeslider.oninput = function() {
-                        output.innerHTML = this.value;
+                        output.innerHTML = test5.value;
                     }
                 </script>
-                <input type="range" min="0" max="100" value="0" class="custom-range" id="test6">
-                <script>
-                    var rangeslider = document.getElementById("test6");
-                    var output = document.getElementById("demo");
-                    output.innerHTML = rangeslider.value;
-
-                    rangeslider.oninput = function() {
-                        output.innerHTML = this.value;
-                    }
-                </script>
-                <div align="center"> <button  type="button" class="btn btn-primary" onclick="testF()">Reset</button> </div>
+            </div>
+            <div class="randrot" align="right">
+                <button  type="button" class="btn btn-primary" onclick="testF()">Weiter</button>
             </div>
         </div>
     </div>
