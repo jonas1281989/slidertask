@@ -9,4 +9,13 @@ function testF(){
     }
 }
 
+function myFunction() {
+        if(document.getElementById(tests[0]).value != 50) document.getElementById("weiter").disabled = true;
+        else document.getElementById("weiter").disabled = false;
+
+
+}
+
+
+
 

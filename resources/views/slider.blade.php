@@ -94,7 +94,7 @@
             <div class="subtitle">
             <p>Aufgabe:</p>
             <p>Ziehen Sie alle Slider auf den Wert 50!</p>
-            <p>Aktueller Wert:<br><span style="color:blue "id="demo"></span></p>
+            <p>Aktueller Wert:<br><span style="color:blue " id="demo"></span></p>
             </div>
             <div class="custom-range randblau">
                 <input type="range" min="0" max="100" value="0" step="1" class="custom-range" id="test1">
@@ -104,6 +104,7 @@
                     output.innerHTML = rangeslider.value;
 
                     rangeslider.oninput = function() {
+                        myFunction();
                         output.innerHTML = test1.value;
                     }
                 </script>
@@ -112,7 +113,7 @@
                 <input type="range" min="0" max="100" value="0" step="1" class="custom-range" id="test2">
                 <script>
                     var rangeslider = document.getElementById("test2");
-                    var output = document.getElementById("demo");
+                    var output = document.getElementById("demo1");
                     output.innerHTML = rangeslider.value;
 
                     rangeslider.oninput = function() {
@@ -140,6 +141,7 @@
                     output.innerHTML = rangeslider.value;
 
                     rangeslider.oninput = function() {
+
                         output.innerHTML = test4.value;
                     }
                 </script>
@@ -156,9 +158,11 @@
                     }
                 </script>
             </div>
+
             <div class="randrot" align="right">
-                <button  type="button" class="btn btn-primary" onclick="testF()">Weiter</button>
+                <button  type="button" class="btn btn-primary" id="weiter" onclick="testF()" disabled>Weiter</button>
             </div>
+
         </div>
     </div>
     </body>
