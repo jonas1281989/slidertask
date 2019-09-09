@@ -8,6 +8,7 @@ function weiterF(){
     document.getElementById("sliderWert").innerHTML= 0;
     document.getElementById("durchlauf").innerHTML= counter;
     counter++;
+    document.getElementById("weiter").disabled = true;
 
 }
 
