@@ -1,0 +1,65 @@
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    text-align: center;
+    position: absolute;
+    top: 7pc;
+}
+
+.title {
+    font-size: 2em;
+}
+.subtitle {
+    font-size: 1em;
+}
+
+
+.links > a {
+    color: #636b6f;
+    padding: 0 50px;
+    font-size: 0.75em;
+    font-weight: 600;
+    letter-spacing: .2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.m-b-md {
+    margin-bottom: 50px;
+}
+
+
+
+/*
+.randrot{
+    border-width:        6px;
+    border-style:       solid;
+    border-color:        red;
+}
+.randblau{
+    border-width:        6px;
+    border-style:        solid;
+    border-color:        blue;
+}
+.randgrün{
+    border-width:        6px;
+    border-style:        solid;
+    border-color:        green;
+}
+.randgelb{
+    border-width:        6px;
+    border-style:        solid;
+    border-color:        yellow;
+}
