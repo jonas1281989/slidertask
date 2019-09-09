@@ -160,7 +160,7 @@
             </div>
 
             <div class="randrot" align="right">
-                <button  type="button" class="btn btn-primary" id="weiter" onclick="testF()" disabled>Weiter</button>
+                <button  type="button" class="btn btn-primary" id="weiter" onclick="testF()" disabled>Weeiter</button>
             </div>
 
         </div>
