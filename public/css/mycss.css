@@ -85,6 +85,9 @@ html, body {
     width: 100%;
     padding: 20px;
 }
+p.dotted {border-style: dotted;}
+p.groove {border-style: groove;}
+
 /*
 .randrot{
     border-width:        6px;

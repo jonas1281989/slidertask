@@ -23,9 +23,11 @@
         <div class="content randgrün" style="width: 80%">
 
             <div class="subtitle">
+
                 <p>Aufgabe: Ziehen Sie alle Slider auf den Wert 50!</p>
                 <p>Anzahl Durchläufe: <span id="durchlauf" style="color:blue ">0</span></p>
                 <p>Aktueller Wert: <span id="sliderWert" style="color:blue ">0</span></p>
+
             </div>
             <div class="custom-range randblau">
                 <input type="range" min="0" max="100" value="0" step="1" class="custom-range" id="slider1">
@@ -60,7 +62,8 @@
             </div>
 
             <div class="randrot" align="right">
-                <button style="width: 88px" type="button" class="btn btn-primary"  onclick="overlayvis()">Beenden</button>
+
+                <button style="width: 88px" type="button" class="btn btn-primary" id="ende" onclick="overlayvis()" disabled>Beenden</button>
 
                <!-- <a href="http://www.google.com"   style="width: 88px" type="button" class="btn btn-primary" role="button">Beenden</a> -->
                 <button style="width: 88px" type="button" class="btn btn-primary" id="weiter" onclick="weiterF()" disabled>Weiter</button>
@@ -70,8 +73,11 @@
                 <div class="popup" id="popup" style="display: none">
                     <p>Sie haben den SliderTask <span id="anzdurch" style="color:blue ">0</span> Mal absolviert!</br>Wollen Sie die Anwendung wirklich beenden und </br>zur Umfrage weitergeleitet werden ?</p>
                     <div class="text-right">
-                        <a href="http://www.google.com" style="width: 88px" class="btn btn-primary">Umfrage</a>
-                        <button style="width: 88px" onclick="overlayinvis()" class="btn btn-primary">Zurück</button>
+                        <div style="text-align: center;">
+                            <a href="http://www.google.com" style="width: 88px" class="btn btn-primary">Umfrage</a>
+                            <button style="width: 88px" onclick="overlayinvis()" class="btn btn-primary">Zurück</button>
+                        </div>
+
                     </div>
                 </div>
             </div>
