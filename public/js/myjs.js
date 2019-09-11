@@ -9,6 +9,7 @@ function weiterF(){
     document.getElementById("durchlauf").innerHTML= counter;
     document.getElementById("anzdurch").innerHTML=counter;
     counter++;
+    document.getElementById("ende").disabled = false;
     document.getElementById("weiter").disabled = true;
 }
 
