@@ -7,9 +7,9 @@ function weiterF(){
     }
     document.getElementById("sliderWert").innerHTML= 0;
     document.getElementById("durchlauf").innerHTML= counter;
+    document.getElementById("anzdurch").innerHTML=counter;
     counter++;
     document.getElementById("weiter").disabled = true;
-
 }
 
 function setFifty(){
@@ -35,6 +35,34 @@ function myFunction() {
         else document.getElementById("weiter").disabled = true;
 }
 
+function overlayvis() {
+    var x = document.getElementById("overlay");
+    var y =document.getElementById("popup");
+    if (x.style.display == "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "block";
+    }
+    if (y.style.display == "none") {
+        y.style.display = "block";
+    } else {
+        y.style.display = "block";
+    }
+}
+function overlayinvis() {
+    var x = document.getElementById("overlay");
+    var y =document.getElementById("popup");
+    if (x.style.display == "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "none";
+    }
+    if (y.style.display == "block") {
+        y.style.display = "none";
+    } else {
+        y.style.display = "none";
+    }
+}
 
 
 

@@ -14,12 +14,11 @@
 
     <!-- Styles -->
     <style>
-        @import url(css/mycss.css)screen;
     </style>
 </head>
     <body>
      <!--Link von Home-Button noch anpassen-->
-    <div class="left title"><a href="\"   type="button" class="btn btn-primary" role="button">Home</a></div>
+    <div class="left title"><a href="\" style="width: 88px" type="button" class="btn btn-primary" role="button">Home</a></div>
      <div class="flex-center randgelb">
         <div class="content randgrün" style="width: 80%">
 
@@ -61,10 +60,21 @@
             </div>
 
             <div class="randrot" align="right">
-                <button  type="button" class="btn btn-primary" id="weiter" onclick="weiterF()" disabled>Weiter</button>
+                <button style="width: 88px" type="button" class="btn btn-primary"  onclick="overlayvis()">Beenden</button>
+
+               <!-- <a href="http://www.google.com"   style="width: 88px" type="button" class="btn btn-primary" role="button">Beenden</a> -->
+                <button style="width: 88px" type="button" class="btn btn-primary" id="weiter" onclick="weiterF()" disabled>Weiter</button>
             </div>
             <button  type="button" class="btn btn-primary" id="setFifty" onclick="setFifty()" >setFifty</button>
-
+            <div class="overlay" id="overlay" style="display: none">
+                <div class="popup" id="popup" style="display: none">
+                    <p>Sie haben den SliderTask <span id="anzdurch" style="color:blue ">0</span> Mal absolviert!</br>Wollen Sie die Anwendung wirklich beenden und </br>zur Umfrage weitergeleitet werden ?</p>
+                    <div class="text-right">
+                        <a href="http://www.google.com" style="width: 88px" class="btn btn-primary">Umfrage</a>
+                        <button style="width: 88px" onclick="overlayinvis()" class="btn btn-primary">Zurück</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     </body>
