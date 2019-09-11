@@ -24,7 +24,7 @@
         </div>
 
         <div class="custom-range">
-            <input type="range" min="0" max="40" value="0" step="1" class="custom-range" id="slider1">
+            <input type="range" class="custom-range slidertest" id="slider1">
             <script>
                 valueF(0);
             </script>
