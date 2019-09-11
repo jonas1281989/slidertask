@@ -6,17 +6,14 @@ html, body {
     height: 100vh;
     margin: 0;
 }
-.full-height {
-    height: 100vh;
+.quarter-height {
+    height: 25%;
 }
 
 .flex-center {
     align-items: center;
     display: flex;
     justify-content: center;
-}
-.position-ref {
-    position: relative;
 }
 
 .content {
@@ -25,12 +22,9 @@ html, body {
     top: 7pc;
 }
 .ueberschrift {
-    font-size: 84px;
+    font-size: 5vw;
 }
 
-.title {
-    font-size: 2em;
-}
 .subtitle {
     font-size: 1em;
 }
@@ -39,14 +33,14 @@ html, body {
 .links > a {
     color: #636b6f;
     padding: 0 50px;
-    font-size: 0.75em;
+    font-size: 2em;
     font-weight: 600;
     letter-spacing: .2rem;
     text-decoration: none;
     text-transform: uppercase;
 }
 .m-b-md {
-    margin-bottom: 50px;
+    margin-bottom: 50%;
 }
 .popup {
     width: 33.333333%;
@@ -58,7 +52,6 @@ html, body {
     background: white;
     position: absolute;
     top: 15%;
-
     box-shadow: 5px 5px 5px #000;
     z-index: 10001;
 }
@@ -72,8 +65,16 @@ html, body {
     background: rgba(0,0,0,.85);
     z-index: 10000;
 }
-
-.container {
+.containertext {
+    position: absolute;
+    max-width: 900px;
+    margin: 10px auto;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+}
+.containerbox {
     position: absolute;
     max-width: 900px;
     margin: 10px auto;
@@ -82,27 +83,5 @@ html, body {
     background: rgb(0, 0, 0); /* Fallback color */
     background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
     color: #f1f1f1;
-    width: 100%;
     padding: 20px;
-}
-/*
-.randrot{
-    border-width:        6px;
-    border-style:       solid;
-    border-color:        red;
-}
-.randblau{
-    border-width:        6px;
-    border-style:        solid;
-    border-color:        blue;
-}
-.randgrün{
-    border-width:        6px;
-    border-style:        solid;
-    border-color:        green;
-}
-.randgelb{
-    border-width:        6px;
-    border-style:        solid;
-    border-color:        yellow;
 }
