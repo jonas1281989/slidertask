@@ -1,6 +1,7 @@
 var i;
 var slider = ["slider1","slider2","slider3","slider4","slider5"];
 var counter = 1;
+
 function weiterF(){
     for(var i=0; i<5; i++){
         document.getElementById(slider[i]).value = 0;
@@ -19,6 +20,8 @@ function setFifty(){
     }
     document.getElementById("sliderWert").innerHTML= 50;
     myFunction();
+    test();
+
 }
 
 function valueF(nummer){
@@ -65,5 +68,15 @@ function overlayinvis() {
     }
 }
 
+function sliderscale() {
 
-
+    if (window.matchMedia("(max-width: 700px)").matches) {
+        for(var i=0; i<5; i++){
+            document.getElementById(slider[i]).step = 5;
+        }
+    } else {
+        for(var i=0; i<5; i++){
+            document.getElementById(slider[i]).step = 1;
+        }
+    }
+}

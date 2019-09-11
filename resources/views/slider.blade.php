@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 </head>
 
-<body>
+<body onload="sliderscale()">
 <div class="left title">
     <a href="\" style="width: 88px" type="button" class="btn btn-primary" role="button">Home</a>
 </div>
@@ -23,40 +23,42 @@
             <p>Aktueller Wert: <span id="sliderWert" style="color:blue ">0</span></p>
         </div>
 
-        <div class="custom-range">
-            <input type="range" class="custom-range slidertest" id="slider1">
-            <script>
-                valueF(0);
-            </script>
-        </div>
+            <div class="custom-range">
+                <input type="range" min="0" max="100" value="0" step="1" class="custom-range" id="slider1">
+                <script>
+                    valueF(0);
+                </script>
+            </div>
 
-        <div class="custom-range ">
-            <input type="range" min="0" max="100" value="0" step="1" class="custom-range" id="slider2">
-            <script>
-                valueF(1);
-            </script>
-        </div>
+            <div class="custom-range ">
+                <input type="range" min="0" max="100" value="0" step="1" class="custom-range" id="slider2">
+                <script>
+                    valueF(1);
+                </script>
+            </div>
 
-        <div class="custom-range ">
-            <input type="range" min="0" max="100" value="0" step="1" class="custom-range" id="slider3">
-            <script>
-                valueF(2);
-            </script>
-        </div>
+            <div class="custom-range ">
+                <input type="range" min="0" max="100" value="0" step="1" class="custom-range" id="slider3">
+                <script>
+                    valueF(2);
+                </script>
+            </div>
 
-        <div class="custom-range ">
-            <input type="range" min="0" max="100" value="0" step="1" class="custom-range" id="slider4">
-            <script>
-                valueF(3);
-            </script>
-        </div>
+            <div class="custom-range ">
+                <input type="range" min="0" max="100" value="0" step="1" class="custom-range" id="slider4">
+                <script>
+                    valueF(3);
+                </script>
+            </div>
 
-        <div class="custom-range ">
-            <input type="range" min="0" max="100" value="0" step="1" class="custom-range" id="slider5">
-            <script>
-                valueF(4);
-            </script>
-        </div>
+            <div class="custom-range ">
+                <input type="range" min="0" max="100" value="0" step="1" class="custom-range" id="slider5">
+                <script>
+                    valueF(4);
+                </script>
+            </div>
+
+
 
         <div align="right">
             <button style="width: 88px" type="button" class="btn btn-primary" id="ende" onclick="overlayvis()" disabled>
@@ -66,6 +68,10 @@
                 Weiter
             </button>
         </div>
+
+        <button type="button" class="btn btn-primary" id="setFifty" onclick="test()">
+            test
+        </button>
         <button type="button" class="btn btn-primary" id="setFifty" onclick="setFifty()">
             setFifty
         </button>
