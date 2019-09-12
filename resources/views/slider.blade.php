@@ -69,15 +69,12 @@
             </button>
         </div>
 
-        <button type="button" class="btn btn-primary" id="setFifty" onclick="test()">
-            test
-        </button>
         <button type="button" class="btn btn-primary" id="setFifty" onclick="setFifty()">
             setFifty
         </button>
         <div class="overlay" id="overlay" style="display: none">
             <div class="popup" id="popup" style="display: none">
-                <p>Sie haben den SliderTask <span id="anzdurch" style="color:blue ">0</span> Mal absolviert!</br>Wollen
+                <p>Siiie haben den SliderTask <span id="anzdurch" style="color:blue ">0</span> Mal absolviert!</br>Wollen
                     Sie die Anwendung wirklich beenden und </br>zur Umfrage weitergeleitet werden ?</p>
                 <div class="text-right">
                     <div style="text-align: center;">
