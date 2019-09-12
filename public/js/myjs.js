@@ -20,8 +20,6 @@ function setFifty(){
     }
     document.getElementById("sliderWert").innerHTML= 50;
     myFunction();
-    test();
-
 }
 
 function valueF(nummer){

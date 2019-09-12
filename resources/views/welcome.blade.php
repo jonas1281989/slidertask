@@ -25,7 +25,7 @@
                     <div class="ueberschrift">Slider-Task
                     </div>
                     <div><br></div>
-                    <div class="links">
+                    <div class="ueberschrift links">
                         <a href="slider">Start</a>
                     </div>
                     <div class="containerbox content links">

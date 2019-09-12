@@ -68,10 +68,6 @@
                 Weiter
             </button>
         </div>
-
-        <button type="button" class="btn btn-primary" id="setFifty" onclick="test()">
-            test
-        </button>
         <button type="button" class="btn btn-primary" id="setFifty" onclick="setFifty()">
             setFifty
         </button>
@@ -81,8 +77,8 @@
                     Sie die Anwendung wirklich beenden und </br>zur Umfrage weitergeleitet werden ?</p>
                 <div class="text-right">
                     <div style="text-align: center;">
-                        <a href="http://www.google.com" style="width: 88px" class="btn btn-primary">Umfrage</a>
-                        <button style="width: 88px" onclick="overlayinvis()" class="btn btn-primary">Zurück</button>
+                        <a href="http://www.google.com" style="width: 49%" class="btn btn-primary">Umfrage</a>
+                        <button style="width: 49%" onclick="overlayinvis()" class="btn btn-primary">Zurück</button>
                     </div>
                 </div>
             </div>
