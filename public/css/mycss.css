@@ -22,20 +22,21 @@ html, body {
     top: 7pc;
 }
 .ueberschrift {
-    font-size: 6vw;
+    font-size: 5.5vw;
+    font-weight: 800;
 }
 
 .subtitle {
     font-size: 2.5vh;
 }
 .subbutton {
-    font-size: 0.5vw;
-}
+     font-size: 2vh;
+ }
 
 .links > a {
     color: #636b6f;
     padding: 0 50px;
-    font-size: 0.5em;
+    font-size: 0.35em;
     font-weight: 600;
     letter-spacing: .2rem;
     text-decoration: none;
@@ -45,16 +46,15 @@ html, body {
     margin-bottom: 50%;
 }
 .popup {
-    width: 70%;
     padding: 15px;
-    left: 0;
-    font-size: 2vh;
-    margin-left: 15%;
+    right: 28%;
+    left: 28%;
+    font-size: 105%;
     border: 1px solid #ccc;
     border-radius: 10px;
     background: white;
     position: absolute;
-    top: 15%;
+    top: 20%;
     box-shadow: 5px 5px 5px #000;
     z-index: 10001;
 }

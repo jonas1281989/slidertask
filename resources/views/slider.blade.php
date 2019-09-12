@@ -73,12 +73,11 @@
         </button>
         <div class="overlay" id="overlay" style="display: none">
             <div class="popup" id="popup" style="display: none">
-                <p>Sie haben den SliderTask <span id="anzdurch" style="color:blue ">0</span> Mal absolviert!</br>Wollen
-                    Sie die Anwendung wirklich beenden und </br>zur Umfrage weitergeleitet werden ?</p>
+                <p>Sie haben den SliderTask <span id="anzdurch" style="color:blue ">0</span> Mal absolviert! Wenn Sie die Anwendung beenden und zur Umfrage weitergeleitet werden möchten, werden Sie über den Button "Umfrage" weitergeleitet.</p>
                 <div class="text-right">
                     <div style="text-align: center;">
-                        <a href="http://www.google.com" style="width: 49%" class="btn btn-primary">Umfrage</a>
-                        <button style="width: 49%" onclick="overlayinvis()" class="btn btn-primary">Zurück</button>
+                        <a href="http://www.google.com" class="btn btn-primary subbutton">Umfrage</a>
+                        <button onclick="overlayinvis()" class="btn btn-primary subbutton">Zurück</button>
                     </div>
                 </div>
             </div>
