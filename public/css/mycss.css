@@ -45,8 +45,8 @@ html, body {
 .m-b-md {
     margin-bottom: 50%;
 }
-@media only screen and (min-width: 800px) {
-    .popup {
+
+   .popup {
         padding: 15px;
         right: 30%;
         left: 30%;
@@ -59,7 +59,7 @@ html, body {
         box-shadow: 5px 5px 5px #000;
         z-index: 10001;
     }
-}
+
 @media only screen and (max-width: 800px) {
     .popup {
         padding: 15px;
