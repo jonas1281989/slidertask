@@ -3,11 +3,6 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-
-
-
         <link rel="stylesheet" type="text/css" href="css/mycss.css" media="screen" />
         @include ('footer')
         <title>Willkommen</title>
@@ -22,13 +17,13 @@
     <body>
         <div class="flex-center quarter-height">
                 <div class="containertext content">
-                    <div class="ueberschrift">Slider-Task
+                    <div class="ueberschrift" style="margin-top: 15%">Slider-Task
                     </div>
                     <div><br></div>
-                    <div class="links">
+                    <div class="ueberschrift links">
                         <a href="slider">Start</a>
                     </div>
-                    <div class="containerbox content links">
+                    <div class="containerbox content" style="font-size: 2vh;">
                             <p>SliderTask ist eine Applikation bei der Anwender mehrere Slider auf einen definierten Wert ziehen sollen.<br>
                             Mit Beendigung des SliderTasks folgt ein Fragebogen, welcher nach bestem Gewissn auszufüllen ist.</p>
                     </div>
