@@ -2,7 +2,9 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         @include ('footer')
-        <title>Willkommen</title>
+        <title>Willkommentest</title>
+        <script type="text/javascript" src="{{ URL::asset('js/myjs.js') }}"></script>
+        <script type="text/javascript" src="{{ URL::asset('js/app.js') }}"></script>
     </head>
     <body>
         <div class="flex-center">
