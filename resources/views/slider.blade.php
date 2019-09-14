@@ -17,7 +17,7 @@
 </div>
 <div class="flex-center">
     <div class="content randrot" style="width: 80%">
-        <div class="subtitle">
+        <div class="">
             <p>Aufgabe: Ziehen Sie alle Slider auf den Wert 50!</p>
             <p>Anzahl Durchläufe: <span id="durchlauf" style="color:blue ">0</span></p>
             <p>Aktueller Wert: <span id="sliderWert" style="color:blue ">0</span></p>
@@ -76,8 +76,8 @@
                 <p>Sie haben den SliderTask <span id="anzdurch" style="color:blue ">0</span> Mal absolviert! Wenn Sie die Anwendung beenden und zur Umfrage weitergeleitet werden möchten, werden Sie über den Button "Umfrage" weitergeleitet.</p>
                 <div class="text-right">
                     <div style="text-align: center;">
-                        <a href="http://www.google.com" class="btn btn-primary subbutton">Umfrage</a>
-                        <button onclick="overlayinvis()" class="btn btn-primary subbutton">Zurück</button>
+                        <a href="http://www.google.com" class="btn btn-primary ">Umfrage</a>
+                        <button onclick="overlayinvis()" class="btn btn-primary ">Zurück</button>
                     </div>
                 </div>
             </div>
