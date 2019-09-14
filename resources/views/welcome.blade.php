@@ -15,12 +15,12 @@
         </style>
     </head>
     <body>
-        <div class="flex-center quarter-height">
-                <div class="containertext content">
+        <div class="flex-center">
+                <div class="content">
                     <div class="ueberschrift" style="margin-top: 15%">Slider-Task
                     </div>
                     <div><br></div>
-                    <div class="ueberschrift links">
+                    <div class=" links">
                         <a href="slider">Start</a>
                     </div>
                     <div class="containerbox content" style="font-size: 2vh;">
