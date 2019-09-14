@@ -45,18 +45,35 @@ html, body {
 .m-b-md {
     margin-bottom: 50%;
 }
-.popup {
-    padding: 15px;
-    right: 28%;
-    left: 28%;
-    font-size: 105%;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    background: white;
-    position: absolute;
-    top: 20%;
-    box-shadow: 5px 5px 5px #000;
-    z-index: 10001;
+@media only screen and (min-width: 800px) {
+    .popup {
+        padding: 15px;
+        right: 30%;
+        left: 30%;
+        font-size: 105%;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        background: white;
+        position: absolute;
+        top: 20%;
+        box-shadow: 5px 5px 5px #000;
+        z-index: 10001;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .popup {
+        padding: 15px;
+        right: 2%;
+        left: 2%;
+        font-size: 105%;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        background: white;
+        position: absolute;
+        top: 30%;
+        box-shadow: 5px 5px 5px #000;
+        z-index: 10001;
+    }
 }
 .overlay {
     position: fixed;
