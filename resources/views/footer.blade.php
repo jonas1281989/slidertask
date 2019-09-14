@@ -3,6 +3,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="css/mycss.css" media="screen"/>
+<script src="{{ URL::asset('js/jquery-3.2.1.min.js') }}"></script>
 <script type="text/javascript" src="{{ URL::asset('js/myjs.js') }}"></script>
 <script type="text/javascript" src="{{ URL::asset('js/app.js') }}"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
