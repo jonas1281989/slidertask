@@ -15,19 +15,13 @@ html, body {
     position: absolute;
     top: 7pc;
 }
+/* Für Handys */
 @media only screen and (max-width: 800px) {
     .ueberschrift {
         font-size: 5vh;
         font-weight: 800;
     }
-}
-@media only screen and (min-width: 800px) {
-    .ueberschrift {
-        font-size: 5vw;
-        font-weight: 800;
-    }
-}
-@media only screen and (max-width: 800px) {
+
     .links > a {
         color: #636b6f;
         padding: 0 50px;
@@ -37,8 +31,28 @@ html, body {
         text-decoration: none;
         text-transform: uppercase;
     }
+
+    .popup {
+        padding: 15px;
+        right: 2%;
+        left: 2%;
+        font-size: 105%;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        background: white;
+        position: absolute;
+        top: 30%;
+        box-shadow: 5px 5px 5px #000;
+        z-index: 10001;
+    }
 }
+/*Für Desktop/Tablet*/
 @media only screen and (min-width: 800px) {
+    .ueberschrift {
+        font-size: 5vw;
+        font-weight: 800;
+    }
+
     .links > a {
         color: #636b6f;
         padding: 0 50px;
@@ -64,21 +78,6 @@ html, body {
         z-index: 10001;
     }
 
-@media only screen and (max-width: 800px) {
-    .popup {
-        padding: 15px;
-        right: 2%;
-        left: 2%;
-        font-size: 105%;
-        border: 1px solid #ccc;
-        border-radius: 10px;
-        background: white;
-        position: absolute;
-        top: 30%;
-        box-shadow: 5px 5px 5px #000;
-        z-index: 10001;
-    }
-}
 .overlay {
     position: fixed;
     width: 100%;
