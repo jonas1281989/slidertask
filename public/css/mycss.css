@@ -10,9 +10,14 @@ html, body {
     display: flex;
     justify-content: center;
 }
-.content {
+.welcome-c {
     text-align: center;
     position: absolute;
+}
+.slider-c {
+    text-align: center;
+    position: absolute;
+    top: 7pc;
 }
 .overlay {
     position: fixed;
