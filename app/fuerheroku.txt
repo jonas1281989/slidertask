@@ -1,6 +1,13 @@
+htaccess:
+RewriteCond %{HTTPS} !=on
+    RewriteCond %{HTTP:X-Forwarded-Proto} !https
+    RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+AppServiceProvider:
 <?php
 
 namespace App\Providers;
+use Illuminate\Support\Facades\URL;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -22,6 +29,6 @@ class AppServiceProvider extends ServiceProvider
      */
 public function boot()
 {
-
+    URL::forceScheme('https');
 }
 }
