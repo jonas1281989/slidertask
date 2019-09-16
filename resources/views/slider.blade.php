@@ -54,7 +54,6 @@
             </script>
         </div>
 
-
         <div align="right">
             <button style="width: 88px" type="button" class="btn btn-primary" id="ende" onclick="overlayvis()" disabled>
                 Beenden

@@ -12,6 +12,8 @@ function weiterF(){
     counter++;
     document.getElementById("ende").disabled = false;
     document.getElementById("weiter").disabled = true;
+    //nur für slider2
+    overlaylbvis();
 }
 
 function setFifty(){
@@ -66,6 +68,34 @@ function overlayinvis() {
     }
 }
 
+function overlaylbvis() {
+    var x = document.getElementById("overlay");
+    var y =document.getElementById("lootbox");
+    if (x.style.display == "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "block";
+    }
+    if (y.style.display == "none") {
+        y.style.display = "block";
+    } else {
+        y.style.display = "block";
+    }
+}
+function overlayilbnvis() {
+    var x = document.getElementById("overlay");
+    var y =document.getElementById("lootbox");
+    if (x.style.display == "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "none";
+    }
+    if (y.style.display == "block") {
+        y.style.display = "none";
+    } else {
+        y.style.display = "none";
+    }
+}
 function sliderscale() {
 
     if (window.matchMedia("(max-width: 700px)").matches) {

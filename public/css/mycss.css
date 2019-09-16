@@ -67,6 +67,19 @@ html, body {
     box-shadow: 5px 5px 5px #000;
     z-index: 10001;
 }
+.imageres {
+    max-width: 100%;
+    height: auto;
+}
+.lootbox{
+    padding: 15px;
+    right: 30%;
+    left: 30%;
+    background: transparent;
+    position: absolute;
+    top: 30%;
+    z-index: 10001;
+}
 /* Für Handys */
 @media only screen and (max-width: 800px) {
     .ueberschrift {
@@ -83,6 +96,19 @@ html, body {
         text-transform: uppercase;
     }
     .popup {
+         padding: 15px;
+         right: 2%;
+         left: 2%;
+         font-size: 105%;
+         border: 1px solid #ccc;
+         border-radius: 10px;
+         background: white;
+         position: absolute;
+         top: 30%;
+         box-shadow: 5px 5px 5px #000;
+         z-index: 10001;
+     }
+    .lootbox {
         padding: 15px;
         right: 2%;
         left: 2%;
@@ -109,9 +135,5 @@ html, body {
     }
 }
 
-.imageres {
-    max-width: 100%;
-    height: auto;
-}
 
 
