@@ -81,12 +81,14 @@ function clickBox(){
     else{
         overlayilbnvis();
         document.getElementById("boxid").src="images/box.png";
-        document.getElementById("boxid").className = "imagewackel";
+        document.getElementById("boxid").className = "imagewackel"
+        document.getElementById("lootbox").className="lootbox";
         onoff=0;
     }
 }
 
 function nextPic(){
+    document.getElementById("lootbox").className="lootboxbild"
     document.getElementById("boxid").className = "imageres";
     document.getElementById("boxid").src=images[imgcounter];
     imgcounter++;
