@@ -14,8 +14,7 @@
                         <a href="slider">Start</a>
                     </div>
                     <div class="containerbox"  style="font-size: 2vh;">
-                            <p>SliderTask ist eine Applikation bei der Anwender mehrere Slider auf einen definierten Wert ziehen sollen.<br>
-                            Mit Beendigung des SliderTasks folgt ein Fragebogen, welcher nach bestem Gewissn auszufüllen ist.</p>
+                        <p>Klicken Sie auf Start um mit der Aufgabe zu beginnen, im Anschluss folgt ein kurzer Fragebogen.</p>
                     </div>
                 </div>
         </div>

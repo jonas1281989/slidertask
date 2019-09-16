@@ -24,14 +24,6 @@ function weiterF(b){
 
 }
 
-function testFunction() {
-    var x = document.createElement("IMG");
-    x.setAttribute("src", "/images/box.png");
-    x.setAttribute("width", "304");
-    x.setAttribute("height", "228");
-    x.setAttribute("alt", "The Pulpit Rock");
-    document.body.appendChild(x);
-}
 
 function setFifty(){
     for(var i=0; i<5; i++){
@@ -89,11 +81,13 @@ function clickBox(){
     else{
         overlayilbnvis();
         document.getElementById("boxid").src="images/box.png";
+        document.getElementById("boxid").className = "imagewackel";
         onoff=0;
     }
 }
 
 function nextPic(){
+    document.getElementById("boxid").className = "imageres";
     document.getElementById("boxid").src=images[imgcounter];
     imgcounter++;
 }
