@@ -14,7 +14,7 @@
 <div class="flex-center">
     <div class="slider-c" style="width: 80%">
         <div class="">
-            <img src="{{url('/images/box.png')}}" alt="Image" class="imageres"/>
+            <img src="{{url('/images/box.png')}}" onclick="lootbox()" alt="Image" class="imageres"/>
             <p>Aufgabe: Ziehen Sie alle Slider auf den Wert 50!</p>
             <p>Anzahl Durchläufe: <span id="durchlauf" style="color:blue ">0</span></p>
             <p>Aktueller Wert: <span id="sliderWert" style="color:blue ">0</span></p>
@@ -60,7 +60,7 @@
             <button style="width: 88px" type="button" class="btn btn-primary" id="ende" onclick="overlayvis()" disabled>
                 Beenden
             </button>
-            <button style="width: 88px" type="button" class="btn btn-primary" id="weiter" onclick="weiterF()" disabled>
+            <button style="width: 88px" type="button" class="btn btn-primary" id="weiter" onclick="testFunction()" disabled>
                 Weiter
             </button>
         </div>

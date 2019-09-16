@@ -2,6 +2,8 @@ var i;
 var slider = ["slider1","slider2","slider3","slider4","slider5"];
 var counter = 1;
 
+
+
 function weiterF(){
     for(var i=0; i<5; i++){
         document.getElementById(slider[i]).value = 0;
@@ -12,6 +14,15 @@ function weiterF(){
     counter++;
     document.getElementById("ende").disabled = false;
     document.getElementById("weiter").disabled = true;
+}
+
+function testFunction() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "/images/box.png");
+    x.setAttribute("width", "304");
+    x.setAttribute("height", "228");
+    x.setAttribute("alt", "The Pulpit Rock");
+    document.body.appendChild(x);
 }
 
 function setFifty(){
