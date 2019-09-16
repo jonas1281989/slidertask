@@ -18,3 +18,7 @@ Route::get('/slider', function () {
     return view('slider');
 });
 
+Route::get('/slider2', function () {
+    return view('slider2');
+});
+
