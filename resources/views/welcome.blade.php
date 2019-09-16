@@ -6,7 +6,7 @@
     </head>
     <body>
         <div class="flex-center">
-                <div class="content">
+                <div class="welcome-c">
                     <div class="ueberschrift" style="margin-top: 15%">Slider-Task
                     </div>
                     <div><br><br><br></div>

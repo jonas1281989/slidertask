@@ -12,7 +12,7 @@
     <a href="\" style="width: 88px" type="button" class="btn btn-primary" role="button">Home</a>
 </div>
 <div class="flex-center">
-    <div class="content randrot" style="width: 80%">
+    <div class="slider-c" style="width: 80%">
         <div class="">
             <p>Aufgabe: Ziehen Sie alle Slider auf den Wert 50!</p>
             <p>Anzahl Durchläufe: <span id="durchlauf" style="color:blue ">0</span></p>
