@@ -1,12 +1,12 @@
 var i;
 var slider = ["slider1","slider2","slider3","slider4","slider5"];
 var counter = 1;
-var images=["images/macchu.jpeg", "images/mauer.jpeg", "images/maya.jpeg", "images/pyramiden.jpeg", "images/rio.jpeg", "images/taj.jpeg", "images/kol.jpeg"];
+var images=["images/macchu.jpeg", "images/mauer.jpeg", "images/maya.jpeg", "images/pyramiden.jpeg", "images/rio.jpeg", "images/taj.jpeg", "images/kol.jpeg",  "images/petra.jpeg", "images/moscow.jpg", "images/neus.jpg"];
 var imgcounter = 0;
 var onoff = 0;
 
 
-function weiterF(){
+function weiterF(b){
     for(var i=0; i<5; i++){
         document.getElementById(slider[i]).value = 0;
     }
@@ -17,7 +17,11 @@ function weiterF(){
     document.getElementById("ende").disabled = false;
     document.getElementById("weiter").disabled = true;
     //nur für slider2
-    overlaylbvis();
+    if(b==1){
+        if(counter%2==0) overlaylbvis();
+        if(counter>20) overlayvis2();
+    }
+
 }
 
 function testFunction() {
@@ -55,6 +59,11 @@ function myFunction() {
 function overlayvis() {
     document.getElementById("overlay").style.display = "block";
     document.getElementById("popup").style.display = "block";
+}
+function overlayvis2() {
+    document.getElementById("overlay").style.display = "block";
+    document.getElementById("popup").style.display = "block";
+    document.getElementById("backbutton").disabled = true;
 }
 
 function overlayinvis() {

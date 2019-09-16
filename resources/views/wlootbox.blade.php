@@ -11,8 +11,11 @@
                     </div>
                     <div><br><br><br></div>
                     <div class=" links">
-                        <a href="wslider">Slider</a>
-                        <a href="wlootbox">Lootbox</a>
+                        <a href="lootbox">Start</a>
+                    </div>
+                    <div class="containerbox"  style="font-size: 2vh;">
+                            <p>SliderTask ist eine Applikation bei der Anwender mehrere Slider auf einen definierten Wert ziehen sollen.<br>
+                            Mit Beendigung des SliderTasks folgt ein Fragebogen, welcher nach bestem Gewissn auszufüllen ist.</p>
                     </div>
                 </div>
         </div>

@@ -59,7 +59,7 @@
             <button style="width: 88px" type="button" class="btn btn-primary" id="ende" onclick="overlayvis()" disabled>
                 Beenden
             </button>
-            <button style="width: 88px" type="button" class="btn btn-primary" id="weiter" onclick="weiterF()" disabled>
+            <button style="width: 88px" type="button" class="btn btn-primary" id="weiter" onclick="weiterF(1)" disabled>
                 Weiter
             </button>
         </div>
@@ -77,7 +77,7 @@
                 <div class="text-right">
                     <div style="text-align: center;">
                         <a href="http://www.google.com" class="btn btn-primary ">Umfrage</a>
-                        <button onclick="overlayinvis()" class="btn btn-primary ">Zurück</button>
+                        <button id="backbutton" onclick="overlayinvis()" class="btn btn-primary ">Zurück</button>
                     </div>
                 </div>
             </div>
