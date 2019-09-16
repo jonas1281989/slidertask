@@ -11,8 +11,10 @@
                     </div>
                     <div><br><br><br></div>
                     <div class=" links">
-                        <a href="wslider">Slider</a>
-                        <a href="wlootbox">Lootbox</a>
+                        <a href="slider">Start</a>
+                    </div>
+                    <div class="containerbox"  style="font-size: 2vh;">
+                        <p>Klicken Sie auf Start um mit der Aufgabe zu beginnen, im Anschluss folgt ein kurzer Fragebogen.</p>
                     </div>
                 </div>
         </div>
