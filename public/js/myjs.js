@@ -1,6 +1,10 @@
 var i;
 var slider = ["slider1","slider2","slider3","slider4","slider5"];
 var counter = 1;
+var images=["images/macchu.jpeg", "images/mauer.jpeg", "images/maya.jpeg", "images/pyramiden.jpeg", "images/rio.jpeg", "images/taj.jpeg", "images/kol.jpeg"];
+var imgcounter = 0;
+var onoff = 0;
+
 
 function weiterF(){
     for(var i=0; i<5; i++){
@@ -14,6 +18,15 @@ function weiterF(){
     document.getElementById("weiter").disabled = true;
     //nur für slider2
     overlaylbvis();
+}
+
+function testFunction() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "/images/box.png");
+    x.setAttribute("width", "304");
+    x.setAttribute("height", "228");
+    x.setAttribute("alt", "The Pulpit Rock");
+    document.body.appendChild(x);
 }
 
 function setFifty(){
@@ -40,62 +53,42 @@ function myFunction() {
 }
 
 function overlayvis() {
-    var x = document.getElementById("overlay");
-    var y =document.getElementById("popup");
-    if (x.style.display == "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "block";
-    }
-    if (y.style.display == "none") {
-        y.style.display = "block";
-    } else {
-        y.style.display = "block";
-    }
+    document.getElementById("overlay").style.display = "block";
+    document.getElementById("popup").style.display = "block";
 }
+
 function overlayinvis() {
-    var x = document.getElementById("overlay");
-    var y =document.getElementById("popup");
-    if (x.style.display == "block") {
-        x.style.display = "none";
-    } else {
-        x.style.display = "none";
+    document.getElementById("overlay").style.display = "none";
+    document.getElementById("popup").style.display = "none";
+}
+
+
+function overlaylbvis() {
+    document.getElementById("overlay").style.display = "block";
+    document.getElementById("lootbox").style.display = "block";
+}
+
+function overlayilbnvis() {
+    document.getElementById("overlay").style.display = "none";
+    document.getElementById("lootbox").style.display = "none";
+}
+function clickBox(){
+    if(onoff==0){
+        nextPic();
+        onoff=1;
     }
-    if (y.style.display == "block") {
-        y.style.display = "none";
-    } else {
-        y.style.display = "none";
+    else{
+        overlayilbnvis();
+        document.getElementById("boxid").src="images/box.png";
+        onoff=0;
     }
 }
 
-function overlaylbvis() {
-    var x = document.getElementById("overlay");
-    var y =document.getElementById("lootbox");
-    if (x.style.display == "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "block";
-    }
-    if (y.style.display == "none") {
-        y.style.display = "block";
-    } else {
-        y.style.display = "block";
-    }
+function nextPic(){
+    document.getElementById("boxid").src=images[imgcounter];
+    imgcounter++;
 }
-function overlayilbnvis() {
-    var x = document.getElementById("overlay");
-    var y =document.getElementById("lootbox");
-    if (x.style.display == "block") {
-        x.style.display = "none";
-    } else {
-        x.style.display = "none";
-    }
-    if (y.style.display == "block") {
-        y.style.display = "none";
-    } else {
-        y.style.display = "none";
-    }
-}
+
 function sliderscale() {
 
     if (window.matchMedia("(max-width: 700px)").matches) {

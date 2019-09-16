@@ -56,8 +56,8 @@ html, body {
 }
 .popup {
     padding: 15px;
-    right: 30%;
-    left: 30%;
+    right: 2%;
+    left: 2%;
     font-size: 105%;
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -110,15 +110,11 @@ html, body {
      }
     .lootbox {
         padding: 15px;
-        right: 2%;
-        left: 2%;
-        font-size: 105%;
-        border: 1px solid #ccc;
-        border-radius: 10px;
-        background: white;
+        right: 20%;
+        left: 20%;
+        background: transparent;
         position: absolute;
         top: 30%;
-        box-shadow: 5px 5px 5px #000;
         z-index: 10001;
     }
     .containerbox {

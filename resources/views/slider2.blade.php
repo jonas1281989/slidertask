@@ -68,7 +68,7 @@
         </button>
         <div class="overlay" id="overlay" style="display: none">
             <div class="lootbox" id="lootbox" style="display: none">
-                <img src="{{url('/images/box.png')}}" alt="Image" class="imageres" onclick="overlayilbnvis()"/>
+                <img src="{{url('/images/box.png')}}" id="boxid" alt="Image" class="imageres" onclick="clickBox()" style="cursor:pointer">
             </div>
             <div class="popup" id="popup" style="display: none">
                 <p>Sie haben den SliderTask <span id="anzdurch" style="color:blue ">0</span> Mal absolviert! Wenn Sie
