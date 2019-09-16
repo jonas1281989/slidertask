@@ -58,7 +58,7 @@
             <button style="width: 88px" type="button" class="btn btn-primary" id="ende" onclick="overlayvis()" disabled>
                 Beenden
             </button>
-            <button style="width: 88px" type="button" class="btn btn-primary" id="weiter" onclick="weiterF()" disabled>
+            <button style="width: 88px" type="button" class="btn btn-primary" id="weiter" onclick="weiterF(2)" disabled>
                 Weiter
             </button>
         </div>
@@ -68,8 +68,8 @@
         <div class="overlay" id="overlay" style="display: none">
             <div class="popup" id="popup" style="display: none">
                 <p>Sie haben den SliderTask <span id="anzdurch" style="color:blue ">0</span> Mal absolviert! Wenn Sie
-                    die Anwendung beenden und zur Umfrage weitergeleitet werden möchten, werden Sie über den Button
-                    "Umfrage" weitergeleitet.</p>
+                    die Anwendung beenden und zur Umfrage weitergeleitet werden möchten, klicken Sie den Button
+                    "Umfrage".</p>
                 <div class="text-right">
                     <div style="text-align: center;">
                         <a href="http://www.google.com" class="btn btn-primary ">Umfrage</a>

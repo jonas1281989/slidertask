@@ -18,7 +18,14 @@ Route::get('/slider', function () {
     return view('slider');
 });
 
-Route::get('/slider2', function () {
-    return view('slider2');
+Route::get('/lootbox', function () {
+    return view('lootbox');
 });
 
+Route::get('/wlootbox', function () {
+    return view('wlootbox');
+});
+
+Route::get('/wslider', function () {
+    return view('wslider');
+});
