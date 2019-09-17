@@ -106,3 +106,8 @@ function sliderscale() {
         }
     }
 }
+
+function umfrage() {
+    counter--;
+    window.location.href = "http://wiwigoettingen.eu.qualtrics.com/jfe/form/SV_7U8uChf6pwvt9Tn?xyz=" + counter + "/";
+}
