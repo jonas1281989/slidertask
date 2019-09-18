@@ -72,7 +72,7 @@
                     "Umfrage".</p>
                 <div class="text-right">
                     <div style="text-align: center;">
-                        <a href="http://www.google.com" class="btn btn-primary ">Umfrage</a>
+                        <button id="umfragebtn" onclick="umfrage()" class="btn btn-primary ">Umfrage</button>
                         <button onclick="overlayinvis()" class="btn btn-primary ">Zurück</button>
                     </div>
                 </div>

@@ -8,6 +8,7 @@
 </head>
 
 <body onload="sliderscale()">
+
 <div class="left title">
     <a href="\" style="width: 88px" type="button" class="btn btn-primary" role="button">Home</a>
 </div>
@@ -76,7 +77,7 @@
                     "Umfrage".</p>
                 <div class="text-right">
                     <div style="text-align: center;">
-                        <a href="http://www.google.com" class="btn btn-primary ">Umfrage</a>
+                        <button id="umfragebtn" onclick="umfrage()" class="btn btn-primary ">Umfrage</button>
                         <button id="backbutton" onclick="overlayinvis()" class="btn btn-primary ">Zurück</button>
                     </div>
                 </div>
