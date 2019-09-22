@@ -58,8 +58,8 @@ html, body {
 }
 .popup {
     padding: 15px;
-    right: 40%;
-    left: 40%;
+    right: 25%;
+    left: 25%;
     font-size: 105%;
     border: 1px solid #ccc;
     border-radius: 10px;
