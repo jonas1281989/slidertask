@@ -92,8 +92,12 @@ function nextPic(){
     document.getElementById("lootbox").className="lootboxbild"
     document.getElementById("boxid").className = "imageres";
     document.getElementById("boxid").src=images[imgcounter];
-    document.getElementById("boxid").style.display = "block";
+    setTimeout(showBild(),100);
     imgcounter++;
+}
+
+function showBild(){
+    document.getElementById("boxid").style.display = "block";
 }
 
 function sliderscale() {
