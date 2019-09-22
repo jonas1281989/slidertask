@@ -25,35 +25,35 @@
                 valueF(0);
             </script>
         </div>
-
+        <div class="" style="margin-bottom: 1%"></div>
         <div class="custom-range ">
             <input type="range" min="0" max="100" value="0" step="1" class="custom-range" id="slider2">
             <script>
                 valueF(1);
             </script>
         </div>
-
+        <div class="" style="margin-bottom: 1%"></div>
         <div class="custom-range ">
             <input type="range" min="0" max="100" value="0" step="1" class="custom-range" id="slider3">
             <script>
                 valueF(2);
             </script>
         </div>
-
+        <div class="" style="margin-bottom: 1%"></div>
         <div class="custom-range ">
             <input type="range" min="0" max="100" value="0" step="1" class="custom-range" id="slider4">
             <script>
                 valueF(3);
             </script>
         </div>
-
+        <div class="" style="margin-bottom: 1%"></div>
         <div class="custom-range ">
             <input type="range" min="0" max="100" value="0" step="1" class="custom-range" id="slider5">
             <script>
                 valueF(4);
             </script>
         </div>
-
+        <div class="" style="margin-bottom: 1%"></div>
         <div align="right">
             <button style="width: 88px" type="button" class="btn btn-primary" id="ende" onclick="overlayvis()" disabled>
                 Beenden
