@@ -76,10 +76,7 @@ function overlayilbnvis() {
 function clickBox(){
     if(onoff==0){
         document.getElementById("lootbox").style.display="none";
-        document.getElementById("boxid").src=images[imgcounter];
-        document.getElementById("lootbox").className="lootboxbild"
-        document.getElementById("boxid").className = "imageres";
-        setTimeout(nextPic, 100);
+        nextPic();
         onoff=1;
     }
     else{
@@ -92,12 +89,15 @@ function clickBox(){
 }
 
 function nextPic(){
-    document.getElementById("lootbox").style.display = "block";
+    document.getElementById("boxid").src=images[imgcounter];
+    document.getElementById("lootbox").className="lootboxbild"
+    document.getElementById("boxid").className = "imageres";
+    setTimeout(showBild, 100);
     imgcounter++;
 }
 
 function showBild(){
-
+    document.getElementById("lootbox").style.display = "block";
 }
 
 function sliderscale() {
