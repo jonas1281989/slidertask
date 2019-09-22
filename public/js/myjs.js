@@ -75,6 +75,7 @@ function overlayilbnvis() {
 }
 function clickBox(){
     if(onoff==0){
+        document.getElementById("lootbox").style.display="none";
         nextPic();
         onoff=1;
     }
@@ -91,6 +92,7 @@ function nextPic(){
     document.getElementById("boxid").src=images[imgcounter];
     document.getElementById("lootbox").className="lootboxbild"
     document.getElementById("boxid").className = "imageres";
+    document.getElementById("lootbox").style.display="block";
     imgcounter++;
 }
 
