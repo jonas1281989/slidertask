@@ -1,9 +1,3 @@
-htaccess:
-RewriteCond %{HTTPS} !=on
-    RewriteCond %{HTTP:X-Forwarded-Proto} !https
-    RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
-AppServiceProvider:
 <?php
 
 namespace App\Providers;

@@ -88,9 +88,11 @@ function clickBox(){
 }
 
 function nextPic(){
+    document.getElementById("boxid").style.display = "none";
     document.getElementById("lootbox").className="lootboxbild"
     document.getElementById("boxid").className = "imageres";
     document.getElementById("boxid").src=images[imgcounter];
+    document.getElementById("boxid").style.display = "block";
     imgcounter++;
 }
 
