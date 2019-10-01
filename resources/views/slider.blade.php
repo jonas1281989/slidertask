@@ -70,7 +70,7 @@
                 <div class="text-right">
                     <div style="text-align: center;">
                         <button id="umfragebtn" onclick="umfrage()" class="btn btn-primary ">Umfrage</button>
-                        <button onclick="overlayinvis()" class="btn btn-primary ">Zurück</button>
+                        <button id="backbutton" onclick="overlayinvis()" class="btn btn-primary ">Zurück</button>
                     </div>
                 </div>
             </div>

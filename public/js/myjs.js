@@ -18,10 +18,16 @@ function weiterF(b){
     document.getElementById("weiter").disabled = true;
 
     //nur für slider2
+    if(b==1){
+        if(counter>20){
+            overlayvis2();
+        }
+        else overlaylbvis();
+    }
     if(counter>20){
         overlayvis2();
     }
-    else overlaylbvis();
+
 
 
 
