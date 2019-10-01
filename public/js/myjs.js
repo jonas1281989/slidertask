@@ -1,7 +1,7 @@
 var i;
 var slider = ["slider1","slider2","slider3","slider4","slider5"];
 var counter = 1;
-var images=["images/macchu.jpeg", "images/mauer.jpeg", "images/maya.jpeg", "images/pyramiden.jpeg", "images/rio.jpeg", "images/taj.jpeg", "images/kol.jpeg",  "images/petra.jpeg", "images/moscow.jpg", "images/neus.jpg"];
+var images=["images/macchu.jpeg","images/france.jpg", "images/mauer.jpeg","images/berlin.jpg", "images/maya.jpeg","images/weiß.jpg", "images/pyramiden.jpeg","images/water.jpg", "images/rio.jpeg","images/pisa.jpg", "images/taj.jpeg", "images/denali.jpg", "images/kol.jpeg",  "images/petra.jpeg", "images/canyon.jpg", "images/moscow.jpg", "images/notre.jpg", "images/italy.jpg", "images/neus.jpg"];
 var imgcounter = 0;
 var onoff = 0;
 
@@ -16,11 +16,14 @@ function weiterF(b){
     counter++;
     document.getElementById("ende").disabled = false;
     document.getElementById("weiter").disabled = true;
+
     //nur für slider2
-    if(b==1){
-        if(counter%2==0) overlaylbvis();
-        if(counter>20) overlayvis2();
+    if(counter>20){
+        overlayvis2();
     }
+    else overlaylbvis();
+
+
 
 }
 

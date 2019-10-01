@@ -14,7 +14,8 @@
                         <a href="slider">Start</a>
                     </div>
                     <div class="containerbox"  style="font-size: 2vh;">
-                        <p>Klicken Sie auf Start um mit der Aufgabe zu beginnen, im Anschluss folgt ein kurzer Fragebogen.</p>
+                        <p>Vielen Dank, dass Sie an diesem Experiment teilnehmen! <br>
+                            Klicken Sie auf Start um mit der Aufgabe zu beginnen, im Anschluss folgt ein kurzer Fragebogen.</p>
                     </div>
                 </div>
         </div>

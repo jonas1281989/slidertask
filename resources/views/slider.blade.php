@@ -8,13 +8,13 @@
 </head>
 
 <body onload="sliderscale()">
-<div class="left title">
-    <a href="\" style="width: 88px" type="button" class="btn btn-primary" role="button">Home</a>
-</div>
 <div class="flex-center">
     <div class="slider-c" style="width: 80%">
         <div class="">
-            <p>Aufgabe: Ziehen Sie alle Slider auf den Wert 50!</p>
+            <p><b>Aufgabe:</b>  Ziehen Sie alle Slider auf den Wert 50!
+                <br> Die Aufgabe kann nach dem ersten Durchlauf jederzeit beendet werden.
+                <br> Es sind maximal 20 Durchläufe möglich.
+            </p>
             <p>Anzahl Durchläufe: <span id="durchlauf" style="color:blue ">0</span></p>
             <p>Aktueller Wert: <span id="sliderWert" style="color:blue ">0</span></p>
         </div>
@@ -62,9 +62,6 @@
                 Weiter
             </button>
         </div>
-        <button type="button" class="btn btn-primary" id="setFifty" onclick="setFifty()">
-            setFifty
-        </button>
         <div class="overlay" id="overlay" style="display: none">
             <div class="popup" id="popup" style="display: none">
                 <p>Sie haben den SliderTask <span id="anzdurch" style="color:blue ">0</span> Mal absolviert! Wenn Sie
