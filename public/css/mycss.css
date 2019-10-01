@@ -83,9 +83,14 @@ html, body {
     cursor:pointer;
     right: 20%;
     left: 20%;
-    box-shadow: 0px 0px 10px 5px gold;
+    box-shadow: 0px 0px 10px 5px black;
 
 }
+
+b {
+    font-weight: bold;
+}
+
 .lootbox{
     padding: 15px;
     right: 30%;

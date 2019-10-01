@@ -9,11 +9,6 @@
                 <div class="welcome-c">
                     <div class="ueberschrift" style="margin-top: 15%">Slider-Task
                     </div>
-                    <div><br><br><br></div>
-                    <div class=" links">
-                        <a href="wslider">Slider</a>
-                        <a href="wlootbox">Lootbox</a>
-                    </div>
                 </div>
         </div>
     </body>
