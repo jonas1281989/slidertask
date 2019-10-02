@@ -121,5 +121,5 @@ function sliderscale() {
 function umfrage(b) {
     counter--;
     if(b==1) window.location.href = "https://wiwigoettingen.eu.qualtrics.com/jfe/form/SV_cYCHgnELRRqwpQp?xyz=" + counter;
-    else    window.location.href = "https://wiwigoettingen.eu.qualtrics.com/jfe/form/SV_6QKfS109apA2s1n?xyz=" + counter;
+    if(b==2) window.location.href = "https://wiwigoettingen.eu.qualtrics.com/jfe/form/SV_6QKfS109apA2s1n?xyz=" + counter;
 }
