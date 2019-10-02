@@ -69,7 +69,7 @@
                     "Umfrage".</p>
                 <div class="text-right">
                     <div style="text-align: center;">
-                        <button id="umfragebtn" onclick="umfrage()" class="btn btn-primary ">Umfrage</button>
+                        <button id="umfragebtn" onclick="umfrage(1)" class="btn btn-primary ">Umfrage</button>
                         <button id="backbutton" onclick="overlayinvis()" class="btn btn-primary ">Zurück</button>
                     </div>
                 </div>

@@ -118,7 +118,8 @@ function sliderscale() {
     }
 }
 
-function umfrage() {
+function umfrage(b) {
     counter--;
-    window.location.href = "http://wiwigoettingen.eu.qualtrics.com/jfe/form/SV_7U8uChf6pwvt9Tn?xyz=" + counter + "/";
+    if(b==1) window.location.href = "https://wiwigoettingen.eu.qualtrics.com/jfe/form/SV_cYCHgnELRRqwpQp?xyz=" + counter;
+    else    window.location.href = "https://wiwigoettingen.eu.qualtrics.com/jfe/form/SV_6QKfS109apA2s1n?xyz=" + counter;
 }
