@@ -9,13 +9,9 @@
                 <div class="welcome-c">
                     <div class="ueberschrift" style="margin-top: 15%">Slider-Task
                     </div>
-                    <div><br><br><br></div>
-                    <div class=" links">
-                        <a href="lootbox">Start</a>
-                    </div>
+                    <div><br></div>
                     <div class="containerbox"  style="font-size: 2vh;">
-                        <p>Vielen Dank, dass Sie an diesem Experiment teilnehmen! <br>
-                            Klicken Sie auf Start um mit der Aufgabe zu beginnen. Im Anschluss folgt ein kurzer Fragebogen.</p>
+                        Das Experiment ist beendet! Vielen Dank :)</p>
                     </div>
                 </div>
         </div>
