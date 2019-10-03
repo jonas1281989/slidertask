@@ -11,7 +11,7 @@
                     </div>
                     <div><br><br><br></div>
                     <div class=" links">
-                        <a href="slider">Start</a>
+                        <a href="lootbox">Start</a>
                     </div>
                     <div class="containerbox"  style="font-size: 2vh;">
                         <p>Vielen Dank, dass Sie an diesem Experiment teilnehmen! <br>
