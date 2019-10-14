@@ -15,7 +15,7 @@
                     </div>
                     <div class="containerbox"  style="font-size: 2vh;">
                         <p>Vielen Dank, dass Sie an diesem Experiment teilnehmen! <br>
-                            Klicken Sie auf Start um mit der Aufgabe zu beginnen, im Anschluss folgt ein kurzer Fragebogen. <br></p>                    </div>
+                            Klicken Sie auf Start um mit der Aufgabe zu beginnen. Im Anschluss folgt ein kurzer Fragebogen. <br></p>                    </div>
                 </div>
         </div>
     </body>
