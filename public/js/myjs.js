@@ -115,11 +115,11 @@ function nextPic(){
 function sliderscale() {
     if (window.matchMedia("(max-width: 700px)").matches) {         // bei kleinen Geräten unter 700px Bildschirmbreite 5er Schritte
         for (var j = 0; j < 5; j++) {
-            document.getElementById(slider[i]).step = 5;
+            document.getElementById(slider[j]).step = 5;
         }
     } else {
         for (var k = 0; k < 5; k++) {                                           // sonst 1er Schritte
-            document.getElementById(slider[i]).step = 1;
+            document.getElementById(slider[k]).step = 1;
         }
     }
 }
