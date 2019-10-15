@@ -14,7 +14,7 @@
                     <div class=" links">
                         <a href="lootbox">Start</a>     <!--Link zur Slider-Task Seite mit Lootbox-->
                     </div>
-                    <div class="containerbox"  style="font-size: 2vh;">     <!--Textfeld für Begrüßungstext-->
+                    <div class="containerbox">     <!--Textfeld für Begrüßungstext-->
                         <p>Vielen Dank, dass Sie an diesem Experiment teilnehmen! <br>
                             Klicken Sie auf Start um mit der Aufgabe zu beginnen. Im Anschluss folgt ein kurzer Fragebogen.</p>
                     </div>
