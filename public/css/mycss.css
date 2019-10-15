@@ -117,9 +117,11 @@ b {
     top: 20%;
     z-index: 10001;
 }
+/* Interaktion mit Slidern durch Maus komplett unterbinden */
 input[type=range]{
     pointer-events: none;
 }
+/* Interaktion mit Slider nur durch Regler anklicken und gedrückt halten aktivieren, je Browsertyp */
 input[type=range]::-webkit-slider-thumb{/*Webkit Browsers wie Chome und Safari*/
     pointer-events: auto;
 }
