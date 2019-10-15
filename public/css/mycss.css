@@ -1,3 +1,4 @@
+/* Standard html style */
 html, body {
     background-color: #fff;
     color: #636b6f;
@@ -6,33 +7,39 @@ html, body {
     height: 100vh;
     margin: 0;
 }
+/* Grund class für alle views, für Anordnung der div Kontainer */
 .flex-center {
     display: flex;
     justify-content: center;
 }
+/* Positionierung Inhalt bei Willkommensseiten */
 .welcome-c {
     text-align: center;
     position: absolute;
 }
+/* Positionierung Inhalt auf  Slider-Seiten */
 .slider-c {
     text-align: center;
     position: absolute;
     top: 7pc;
 }
+/* halbtransparenter Hintergrund Bei Lootbox und bei Klick auf Beenden Button */
 .overlay {
     position: fixed;
     width: 100%;
-    top: 0;
+    top: 0; /* Abstände = 0, damit Vollbild */
     left: 0;
     right: 0;
     bottom: 0;
     background: rgba(0,0,0,.85);
     z-index: 10000;
 }
+/* Überschrift class für Willkommensseiten */
 .ueberschrift {
     font-size: 5vw;
     font-weight: 800;
 }
+/* class für die Links auf den Willkommensseiten Start, Slider, Lootbox */
 .links > a {
     color: #636b6f;
     padding: 0 50px;
@@ -42,18 +49,20 @@ html, body {
     text-decoration: none;
     text-transform: uppercase;
 }
+/* Felder für Begrüßungstexte auf Willkommensseiten */
 .containerbox {
+    font-size: 2vh;
     max-width: 900px;
     margin: 10px auto;
     position: relative;
-    /*bottom: 0;*/
     background: rgb(0, 0, 0); /* Fallback color */
-    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    background: rgba(0, 0, 0, 0.5); /* Black background mit 0.5 Deckkraft */
     color: #f1f1f1;
     padding: 20px;
     font-weight: bold;
     top: 6pc;
 }
+/* Popup Fenster bei Klick auf "Beenden" Button beim Slider-Task */
 .popup {
     padding: 15px;
     right: 25%;
@@ -67,14 +76,15 @@ html, body {
     box-shadow: 5px 5px 5px #000;
     z-index: 10001;
 }
+/* class für lootbox mit Wackeleffekt */
 .imagewackel {
     max-width: 100%;
     height: auto;
-    animation: shake 0.8s;
-    animation-iteration-count: infinite;
-    cursor:url("/images/key.gif"), pointer;
-
+    animation: shake 0.8s;  /* keyframe shake */
+    animation-iteration-count: infinite; /* Animationsdauer permanent */
+    cursor:url("/images/key.gif"), pointer; /* Schlüsselbild laden und Cursor in Schlüssel ändern */
 }
+/* von Funktion clickBox() verwendet -> imagewackel auf class imageres für das Bild wechseln*/
 .imageres{
     max-width: 100%;
     height: auto;
@@ -82,13 +92,12 @@ html, body {
     right: 20%;
     left: 20%;
     box-shadow: 0px 0px 10px 5px black;
-
 }
-
+/* <b> tag angepasst für Aufgabenbeschreibung auf Slider Seiten */
 b {
     font-weight: bold;
 }
-
+/* class für die Lootbox */
 .lootbox{
     padding: 15px;
     right: 30%;
@@ -98,20 +107,7 @@ b {
     top: 30%;
     z-index: 10001;
 }
-
-input[type=range]{
-    pointer-events: none;
-}
-input[type=range]::-webkit-slider-thumb{/*Webkit Browsers like Chome and Safari*/
-    pointer-events: auto;
-}
-input[type=range]::-moz-range-thumb{/*Firefox*/
-    pointer-events: auto;
-}
-input[type=range]::-ms-thumb{/*Internet Explorer*/
-    pointer-events: auto;
-}
-
+/* class für Bilder aus der Lootbox */
 .lootboxbild{
     padding: 15px;
     right: 25%;
@@ -121,7 +117,21 @@ input[type=range]::-ms-thumb{/*Internet Explorer*/
     top: 20%;
     z-index: 10001;
 }
-/* Für Handys */
+input[type=range]{
+    pointer-events: none;
+}
+input[type=range]::-webkit-slider-thumb{/*Webkit Browsers wie Chome und Safari*/
+    pointer-events: auto;
+}
+input[type=range]::-moz-range-thumb{/*Firefox*/
+    pointer-events: auto;
+}
+input[type=range]::-ms-thumb{/*Internet Explorer*/
+    pointer-events: auto;
+}
+
+/* classes Für Handys: bei Breite von 800px und weniger */
+/* alle Elemente kleiner skaliert */
 @media only screen and (max-width: 800px) {
     .ueberschrift {
         font-size: 5vh;
@@ -168,20 +178,19 @@ input[type=range]::-ms-thumb{/*Internet Explorer*/
         z-index: 10001;
     }
     .containerbox {
+        font-size: 2vh;
         max-width: 900px;
         margin: 10px auto;
         position: relative;
-        /*bottom: 0;*/
-        background: rgb(0, 0, 0); /* Fallback color */
-        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5);
         color: #f1f1f1;
         padding: 20px;
         top: 3pc;
         font-weight: bold;
     }
-
 }
-
+/* Wackelanimation der Lootbox */
 @keyframes shake {
     0% { transform: translate(1px, 1px) rotate(0deg); }
     10% { transform: translate(-1px, -2px) rotate(-1deg); }
@@ -195,6 +204,3 @@ input[type=range]::-ms-thumb{/*Internet Explorer*/
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
-
-
-
