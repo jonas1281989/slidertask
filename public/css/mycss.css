@@ -6,8 +6,6 @@ html, body {
     height: 100vh;
     margin: 0;
 }
-
-
 .flex-center {
     display: flex;
     justify-content: center;
