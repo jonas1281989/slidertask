@@ -131,7 +131,6 @@ input[type=range]::-moz-range-thumb{/*Firefox*/
 input[type=range]::-ms-thumb{/*Internet Explorer*/
     pointer-events: auto;
 }
-
 /* classes Für Handys: bei Breite von 800px und weniger */
 /* alle Elemente kleiner skaliert */
 @media only screen and (max-width: 800px) {

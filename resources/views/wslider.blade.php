@@ -8,11 +8,11 @@
     <body>
         <div class="flex-center">
                 <div class="welcome-c">
-                    <div class="ueberschrift" style="margin-top: 15%">Slider-Task   <!--Seitenüberschrift-->
+                    <div class="ueberschrift" style="margin-top: 15%">Slider-Task   <!--Seitenüberschrift mit 15% Platz nach oben-->
                     </div>
                     <div><br><br><br></div>
                     <div class=" links">
-                        <a href="lootbox">Start</a>     <!--Link zur Slider-Task Seite ohne Lootbox-->
+                        <a href="slider">Start</a>     <!--Link zur Slider-Task Seite ohne Lootbox-->
                     </div>
                     <div class="containerbox">     <!--Textfeld für Begrüßungstext-->
                         <p>Vielen Dank, dass Sie an diesem Experiment teilnehmen! <br>
