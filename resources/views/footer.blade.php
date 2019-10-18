@@ -4,5 +4,6 @@
 <link rel="stylesheet" type="text/css" href="css/mycss.css" media="screen"/>
 <script type="text/javascript" src="{{ URL::asset('js/myjs.js') }}"></script>   <!-- Import der Javascript dateien myjs und app-->
 <script type="text/javascript" src="{{ URL::asset('js/app.js') }}"></script>
-
+<meta charset="utf-8">          <!-- Verwendung UTF-8 Zeichncodierung -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- Standardskalierung für Webseitenanzeige -->
 
