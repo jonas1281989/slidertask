@@ -10,7 +10,6 @@
 <body onload="sliderscale()">   <!--Aufruf Funktion sliderscale() -->
 <div class="flex-center">
     <div class="slider-c" style="width: 80%">       <!--abstand oben durch slider-c, kontainer auf 80% der Bildschrimbreite -->
-        <div class="">  <!--############## kann weg glaub ich ################## -->
             <!-- Aufgabenbeschreibung -->
             <p><b>Aufgabe:</b>  Ziehen Sie alle Slider auf den Wert 50!
                 <br> Die Aufgabe kann nach dem ersten Durchlauf jederzeit beendet werden.
@@ -19,7 +18,6 @@
             <!--Zähler für Durchlaufzahl und Sliderwert -->
             <p>Anzahl Durchläufe: <span id="durchlauf" style="color:blue ">0</span></p>     <!-- "span" generischer Inlinekontainer für styling-Zwecke, durch ID ansprechbar-->
             <p>Aktueller Wert: <span id="sliderWert" style="color:blue ">0</span></p>
-        </div>
         <!-- Slider 1 -->
         <div class="custom-range">
             <input type="range" min="0" max="100" value="0" step="1" class="custom-range" id="slider1"> <!-- Slideroptionen: Stil, min-max, Schrittgröße... -->
